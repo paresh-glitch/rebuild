@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.json({
-        message: 'Hello from rebuild project!',
+        message: 'Hello from rebuild projects!',
         version: '1.0.0',
         timestamp: new Date().toISOString()
     });
